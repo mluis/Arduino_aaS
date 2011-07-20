@@ -1,0 +1,6 @@
+Arduino node. DHCP Client + HTTP Server + Bonjour/Zeroconf Announcements + IFrared Emissor.
+
+This is some source code I wrote for the SAPO Codebits 2010 contest.
+Link: http://codebits.eu/intra/s/project/172
+
+The project will use an arduino with an ethernet shield, a web server and a mobile app to remotely control any device in you living room. The application on the mobile will be able to discover the arduino's in the room and remotely control everything. The webserver will be used to store de application and resolve the location and information about the arduinos, while the arduinos will solely solve the problem of interfacing with the TV's. We will use PHP, JS, HTML5 to glue everything together.
